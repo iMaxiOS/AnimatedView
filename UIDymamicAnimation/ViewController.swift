@@ -99,6 +99,10 @@ class ViewController: UIViewController {
         colision.addItem(item)
         itemBehaviour.addItem(item)
     }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 }
 
 
